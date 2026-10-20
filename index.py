@@ -30,33 +30,33 @@ NEWS_CACHE_TTL = 300.0
 
 DEFAULT_STOCKS_METADATA = [
     {"symbol": "2330.TW", "name": "台積電 (TSMC)", "market": "TW", "sector": "半導體晶圓代工", "base": 2420.0, "pe": 26.5, "yield": 1.4, "yoy": 36.2, "score": 96, "rating": "強力推薦", "kline": "🚀 多頭強勢創高", "reasons": ["CoWoS 先進封裝產能供不應求", "全球 AI 加速晶片 99% 由台積電代工"]},
-    {"symbol": "3017.TW", "name": "奇鋐 (AVC)", "market": "TW", "sector": "AI水冷散熱龍頭", "base": 3315.0, "pe": 22.4, "yield": 2.3, "yoy": 45.0, "score": 95, "rating": "強力推薦", "kline": "🚀 沿月線多頭推進", "reasons": ["3D VC 與水冷板市佔率第一", "美系 CSP 獨家與主力水冷供應商"]},
-    {"symbol": "2454.TW", "name": "聯發科 (MediaTek)", "market": "TW", "sector": "AI晶片/IC設計", "base": 4250.0, "pe": 17.6, "yield": 4.6, "yoy": 28.5, "score": 94, "rating": "強力推薦", "kline": "📈 均線多頭發散", "reasons": ["天璣旗艦晶片與邊緣 AI 市占躍升", "ASIC 客製化晶片切入雲端大廠"]},
-    {"symbol": "2317.TW", "name": "鴻海 (Foxconn)", "market": "TW", "sector": "AI伺服器組裝巨頭", "base": 244.0, "pe": 15.2, "yield": 4.1, "yoy": 22.1, "score": 91, "rating": "看好偏多", "kline": "📈 多頭排列", "reasons": ["GB200 / NVL72 AI 伺服器垂直整合優勢", "全球雲端 CSP 訂單份額第一"]},
-    {"symbol": "3443.TW", "name": "創意 (Global Unichip)", "market": "TW", "sector": "矽智財/ASIC", "base": 7480.0, "pe": 35.9, "yield": 1.8, "yoy": 31.0, "score": 90, "rating": "強力推薦", "kline": "🚀 高檔放量突破", "reasons": ["台積電 3nm / CoWoS 設計夥伴", "北美頂級 CSP 客製化晶片量產"]},
-    {"symbol": "3661.TW", "name": "世芯-KY (Alchip)", "market": "TW", "sector": "特製AI晶片ASIC", "base": 3685.0, "pe": 42.0, "yield": 0.8, "yoy": 55.4, "score": 95, "rating": "強力推薦", "kline": "🚀 雲端巨頭晶片量產", "reasons": ["北美雲端 CSP 客製化晶片量產拉貨", "AI ASIC 領域具備領先技術壁壘"]},
-    {"symbol": "2382.TW", "name": "廣達 (Quanta)", "market": "TW", "sector": "AI伺服器代工龍頭", "base": 322.0, "pe": 16.5, "yield": 3.9, "yoy": 35.0, "score": 92, "rating": "強力推薦", "kline": "📈 多頭結構", "reasons": ["雲端三巨頭伺服器核心代工廠", "AI 伺服器營收比重超過五成"]},
-    {"symbol": "3231.TW", "name": "緯創 (Wistron)", "market": "TW", "sector": "AI伺服器GPU基板", "base": 182.5, "pe": 16.5, "yield": 4.1, "yoy": 24.2, "score": 89, "rating": "看好偏多", "kline": "📈 價量齊揚", "reasons": ["GPU 運算主板市佔率超過六成", "海外廠產能全開供不應求"]},
-    {"symbol": "2376.TW", "name": "技嘉 (Gigabyte)", "market": "TW", "sector": "AI伺服器/主機板", "base": 357.5, "pe": 20.4, "yield": 2.8, "yoy": 31.2, "score": 91, "rating": "強力推薦", "kline": "🚀 水冷伺服器爆發", "reasons": ["AI 伺服器營收年增雙位數推進", "三大法人大單鎖碼佈局"]},
-    {"symbol": "3324.TWO", "name": "雙鴻 (Auras)", "market": "TW", "sector": "AI水冷與CDU散熱", "base": 1425.0, "pe": 21.2, "yield": 2.5, "yoy": 42.1, "score": 93, "rating": "看好偏多", "kline": "📈 水冷技術強勢拉升", "reasons": ["液冷 CDU 分配器與水冷板出貨量飆升", "伺服器 TDP 功耗攀升帶動水冷滲透率"]},
-    {"symbol": "6669.TW", "name": "緯穎 (Wiwynn)", "market": "TW", "sector": "雲端AI伺服器純度最高", "base": 1845.0, "pe": 15.4, "yield": 3.8, "yoy": 48.0, "score": 94, "rating": "看好偏多", "kline": "📈 高檔強勢整理", "reasons": ["Meta / 微軟 AI 伺服器大單放量", "營收年增雙位數噴發"]},
-    {"symbol": "2303.TW", "name": "聯電 (UMC)", "market": "TW", "sector": "晶圓代工/中介層", "base": 133.0, "pe": 11.8, "yield": 5.6, "yoy": 8.4, "score": 86, "rating": "看好偏多", "kline": "🏰 高殖利率打底回升", "reasons": ["提供 CoWoS 關鍵 Interposer 中介層", "5.6% 高股息殖利率護體"]},
-    {"symbol": "2308.TW", "name": "台達電 (Delta)", "market": "TW", "sector": "AI電源與液冷龍頭", "base": 1630.0, "pe": 24.0, "yield": 2.7, "yoy": 20.5, "score": 84, "rating": "看好偏多", "kline": "📈 穩健向上", "reasons": ["高瓦數 AI 伺服器電源市佔率超 60%", "整體微電網與液冷散熱整合方案優勢"]},
-    {"symbol": "6213.TW", "name": "聯茂 (ITEQ)", "market": "TW", "sector": "高階銅箔基板CCL", "base": 799.0, "pe": 27.1, "yield": 2.8, "yoy": 29.4, "score": 85, "rating": "看好偏多", "kline": "📈 均線多頭", "reasons": ["M6/M7 高速低損耗銅箔基板認證通過", "AI 伺服器主板材料升級受惠者"]},
-    {"symbol": "6451.TW", "name": "訊芯-KY (ShunSin)", "market": "TW", "sector": "CPO矽光子封測", "base": 360.5, "pe": 30.8, "yield": 1.5, "yoy": 38.6, "score": 83, "rating": "看好偏多", "kline": "🚀 強攻突破整理區", "reasons": ["博通 CPO 先進光學封裝主力夥伴", "下一代資料中心高速光傳輸標準確立"]},
-    {"symbol": "3234.TWO", "name": "光環 (LuxNet)", "market": "TW", "sector": "光通訊/矽光子CPO", "base": 176.5, "pe": 18.5, "yield": 2.1, "yoy": 55.4, "score": 93, "rating": "強力推薦", "kline": "🚀 噴出突破創高", "reasons": ["CPO 矽光子共同封裝技術驗證過關", "AI 巨量資料傳輸光收發模組急單"]},
-    {"symbol": "3013.TW", "name": "晟銘電 (UNEGR)", "market": "TW", "sector": "水冷機殼與液冷散熱", "base": 94.7, "pe": 16.8, "yield": 3.2, "yoy": 63.8, "score": 85, "rating": "看好偏多", "kline": "📈 均線向上集結", "reasons": ["水冷機櫃產能擴建大單落實", "營收連續數月改寫歷史新高"]},
-    {"symbol": "NVDA", "name": "輝達 (NVIDIA)", "market": "US", "sector": "AI晶片霸主", "base": 214.13, "pe": 38.5, "yield": 0.1, "yoy": 125.0, "score": 98, "rating": "強力推薦", "kline": "🚀 全球算力霸主突破", "reasons": ["Blackwell 架構晶片產能售罄", "AI 資料中心全球份額超九成"]},
-    {"symbol": "0050.TW", "name": "元大台灣50 (0050)", "market": "TW", "sector": "市值型龍頭ETF", "base": 109.0, "pe": 18.5, "yield": 3.2, "yoy": 25.0, "score": 95, "rating": "強力推薦", "kline": "🚀 權值龍頭多頭創高", "reasons": ["台股大盤權值第一代表", "涵蓋台積電聯發科等50大權值巨頭", "定期定額與外資長線首選"]},
-    {"symbol": "0056.TW", "name": "元大高股息 (0056)", "market": "TW", "sector": "高股息龍頭ETF", "base": 58.75, "pe": 14.2, "yield": 7.8, "yoy": 18.5, "score": 92, "rating": "強力推薦", "kline": "📈 穩健向上除息填息", "reasons": ["台灣第一檔高股息 ETF 歷史悠久", "年化殖利率 7.8% 穩定配息", "預測未來一年現金殖利率最高30檔"]},
-    {"symbol": "00878.TW", "name": "國泰永續高股息 (00878)", "market": "TW", "sector": "季配型高息ETF", "base": 35.53, "pe": 13.8, "yield": 8.5, "yoy": 20.1, "score": 94, "rating": "強力推薦", "kline": "🚀 百萬股民存股首選", "reasons": ["全台受益人數破百萬人氣王", "ESG 與高殖利率兼具防禦抗震", "季季穩定配息填息能力優異"]},
-    {"symbol": "00919.TW", "name": "群益台灣精選高息 (00919)", "market": "TW", "sector": "高息型人氣ETF", "base": 32.74, "pe": 12.5, "yield": 10.2, "yoy": 26.4, "score": 96, "rating": "強力推薦", "kline": "🔥 雙位數年化配息噴發", "reasons": ["年化配息率突破 10% 傲視同業", "精準鎖定已宣告高股息與高獲利股", "規模突破 2500 億人氣狂飆"]},
-    {"symbol": "00929.TW", "name": "復華台灣科技優息 (00929)", "market": "TW", "sector": "科技月配息ETF", "base": 29.84, "pe": 14.5, "yield": 8.9, "yoy": 22.8, "score": 91, "rating": "看好偏多", "kline": "📈 科技高息月月領", "reasons": ["全台首檔月配息 ETF", "100% 聚焦台灣高獲利科技優質股", "每月現金流投資人最愛"]},
-    {"symbol": "00940.TW", "name": "元大台灣價值高息 (00940)", "market": "TW", "sector": "價值月配息ETF", "base": 13.48, "pe": 13.0, "yield": 7.2, "yoy": 15.2, "score": 90, "rating": "看好偏多", "kline": "🏰 巴菲特價值選股", "reasons": ["結合巴菲特價值投資與高股息", "百億募資指標月月配息", "低本益比與高自由現金流防禦"]},
-    {"symbol": "006208.TW", "name": "富邦台50 (006208)", "market": "TW", "sector": "低內扣市值ETF", "base": 250.35, "pe": 18.2, "yield": 3.1, "yoy": 25.0, "score": 95, "rating": "強力推薦", "kline": "🚀 追蹤大盤超低內扣", "reasons": ["全市場總費用率極低 (僅約 0.15%~0.25%)", "同享台股五十大權值成長紅利", "年輕存股族與指數化投資首選"]},
-    {"symbol": "00713.TW", "name": "元大台灣高息低波 (00713)", "market": "TW", "sector": "高息低波抗震ETF", "base": 65.8, "pe": 13.5, "yield": 7.9, "yoy": 19.5, "score": 93, "rating": "強力推薦", "kline": "🛡️ 空頭抗震多頭跟漲", "reasons": ["多因子兼顧高殖利率與極低波動度", "歷經多次空頭回檔展現超強防禦力", "長年累積報酬率超越大盤指標"]},
-    {"symbol": "00631L.TW", "name": "元大台灣50正2 (00631L)", "market": "TW", "sector": "2倍槓桿型ETF", "base": 37.15, "pe": 20.0, "yield": 0.0, "yoy": 45.0, "score": 92, "rating": "強力推薦", "kline": "⚡ 多頭大盤波段放大器", "reasons": ["追蹤台灣50單日正向兩倍報酬", "長期波段多頭行情具複利放大效應", "波段積極型投資人進攻首選"]},
-    {"symbol": "00679B.TWO", "name": "元大美債20年 (00679B)", "market": "TW", "sector": "長天期美債ETF", "base": 25.74, "pe": 15.0, "yield": 4.8, "yoy": 12.0, "score": 89, "rating": "看好偏多", "kline": "🏦 降息循環受惠資產", "reasons": ["直接持有美國財政部 20 年期以上國債", "聯準會降息循環具資本利得爆發潛力", "固定季配息避險資產首選"]}
+    {"symbol": "3017.TW", "name": "奇鋐 (AVC)", "market": "TW", "sector": "AI水冷散熱龍頭", "base": 3320.0, "pe": 22.4, "yield": 2.3, "yoy": 45.0, "score": 95, "rating": "強力推薦", "kline": "🚀 沿月線多頭推進", "reasons": ["3D VC 與水冷板市佔率第一", "美系 CSP 獨家與主力水冷供應商"]},
+    {"symbol": "2454.TW", "name": "聯發科 (MediaTek)", "market": "TW", "sector": "AI晶片/IC設計", "base": 4205.0, "pe": 17.6, "yield": 4.6, "yoy": 28.5, "score": 94, "rating": "強力推薦", "kline": "📈 均線多頭發散", "reasons": ["天璣旗艦晶片與邊緣 AI 市占躍升", "ASIC 客製化晶片切入雲端大廠"]},
+    {"symbol": "2317.TW", "name": "鴻海 (Foxconn)", "market": "TW", "sector": "AI伺服器組裝巨頭", "base": 239.5, "pe": 15.2, "yield": 4.1, "yoy": 22.1, "score": 91, "rating": "看好偏多", "kline": "📈 多頭排列", "reasons": ["GB200 / NVL72 AI 伺服器垂直整合優勢", "全球雲端 CSP 訂單份額第一"]},
+    {"symbol": "3443.TW", "name": "創意 (Global Unichip)", "market": "TW", "sector": "矽智財/ASIC", "base": 7830.0, "pe": 35.9, "yield": 1.8, "yoy": 31.0, "score": 90, "rating": "強力推薦", "kline": "🚀 高檔放量突破", "reasons": ["台積電 3nm / CoWoS 設計夥伴", "北美頂級 CSP 客製化晶片量產"]},
+    {"symbol": "3661.TW", "name": "世芯-KY (Alchip)", "market": "TW", "sector": "特製AI晶片ASIC", "base": 3715.0, "pe": 42.0, "yield": 0.8, "yoy": 55.4, "score": 95, "rating": "強力推薦", "kline": "🚀 雲端巨頭晶片量產", "reasons": ["北美雲端 CSP 客製化晶片量產拉貨", "AI ASIC 領域具備領先技術壁壘"]},
+    {"symbol": "2382.TW", "name": "廣達 (Quanta)", "market": "TW", "sector": "AI伺服器代工龍頭", "base": 314.5, "pe": 16.5, "yield": 3.9, "yoy": 35.0, "score": 92, "rating": "強力推薦", "kline": "📈 多頭結構", "reasons": ["雲端三巨頭伺服器核心代工廠", "AI 伺服器營收比重超過五成"]},
+    {"symbol": "3231.TW", "name": "緯創 (Wistron)", "market": "TW", "sector": "AI伺服器GPU基板", "base": 180.0, "pe": 16.5, "yield": 4.1, "yoy": 24.2, "score": 89, "rating": "看好偏多", "kline": "📈 價量齊揚", "reasons": ["GPU 運算主板市佔率超過六成", "海外廠產能全開供不應求"]},
+    {"symbol": "2376.TW", "name": "技嘉 (Gigabyte)", "market": "TW", "sector": "AI伺服器/主機板", "base": 352.0, "pe": 20.4, "yield": 2.8, "yoy": 31.2, "score": 91, "rating": "強力推薦", "kline": "🚀 水冷伺服器爆發", "reasons": ["AI 伺服器營收年增雙位數推進", "三大法人大單鎖碼佈局"]},
+    {"symbol": "3324.TWO", "name": "雙鴻 (Auras)", "market": "TW", "sector": "AI水冷與CDU散熱", "base": 1380.0, "pe": 21.2, "yield": 2.5, "yoy": 42.1, "score": 93, "rating": "看好偏多", "kline": "📈 水冷技術強勢拉升", "reasons": ["液冷 CDU 分配器與水冷板出貨量飆升", "伺服器 TDP 功耗攀升帶動水冷滲透率"]},
+    {"symbol": "6669.TW", "name": "緯穎 (Wiwynn)", "market": "TW", "sector": "雲端AI伺服器純度最高", "base": 1885.0, "pe": 15.4, "yield": 3.8, "yoy": 48.0, "score": 94, "rating": "看好偏多", "kline": "📈 高檔強勢整理", "reasons": ["Meta / 微軟 AI 伺服器大單放量", "營收年增雙位數噴發"]},
+    {"symbol": "2303.TW", "name": "聯電 (UMC)", "market": "TW", "sector": "晶圓代工/中介層", "base": 131.5, "pe": 11.8, "yield": 5.6, "yoy": 8.4, "score": 86, "rating": "看好偏多", "kline": "🏰 高殖利率打底回升", "reasons": ["提供 CoWoS 關鍵 Interposer 中介層", "5.6% 高股息殖利率護體"]},
+    {"symbol": "2308.TW", "name": "台達電 (Delta)", "market": "TW", "sector": "AI電源與液冷龍頭", "base": 1640.0, "pe": 24.0, "yield": 2.7, "yoy": 20.5, "score": 84, "rating": "看好偏多", "kline": "📈 穩健向上", "reasons": ["高瓦數 AI 伺服器電源市佔率超 60%", "整體微電網與液冷散熱整合方案優勢"]},
+    {"symbol": "6213.TW", "name": "聯茂 (ITEQ)", "market": "TW", "sector": "高階銅箔基板CCL", "base": 767.0, "pe": 27.1, "yield": 2.8, "yoy": 29.4, "score": 85, "rating": "看好偏多", "kline": "📈 均線多頭", "reasons": ["M6/M7 高速低損耗銅箔基板認證通過", "AI 伺服器主板材料升級受惠者"]},
+    {"symbol": "6451.TW", "name": "訊芯-KY (ShunSin)", "market": "TW", "sector": "CPO矽光子封測", "base": 366.0, "pe": 30.8, "yield": 1.5, "yoy": 38.6, "score": 83, "rating": "看好偏多", "kline": "🚀 強攻突破整理區", "reasons": ["博通 CPO 先進光學封裝主力夥伴", "下一代資料中心高速光傳輸標準確立"]},
+    {"symbol": "3234.TWO", "name": "光環 (LuxNet)", "market": "TW", "sector": "光通訊/矽光子CPO", "base": 178.0, "pe": 18.5, "yield": 2.1, "yoy": 55.4, "score": 93, "rating": "強力推薦", "kline": "🚀 噴出突破創高", "reasons": ["CPO 矽光子共同封裝技術驗證過關", "AI 巨量資料傳輸光收發模組急單"]},
+    {"symbol": "3013.TW", "name": "晟銘電 (UNEGR)", "market": "TW", "sector": "水冷機殼與液冷散熱", "base": 95.0, "pe": 16.8, "yield": 3.2, "yoy": 63.8, "score": 85, "rating": "看好偏多", "kline": "📈 均線向上集結", "reasons": ["水冷機櫃產能擴建大單落實", "營收連續數月改寫歷史新高"]},
+    {"symbol": "NVDA", "name": "輝達 (NVIDIA)", "market": "US", "sector": "AI晶片霸主", "base": 217.09, "pe": 38.5, "yield": 0.1, "yoy": 125.0, "score": 98, "rating": "強力推薦", "kline": "🚀 全球算力霸主突破", "reasons": ["Blackwell 架構晶片產能售罄", "AI 資料中心全球份額超九成"]},
+    {"symbol": "0050.TW", "name": "元大台灣50 (0050)", "market": "TW", "sector": "市值型龍頭ETF", "base": 108.15, "pe": 18.5, "yield": 3.2, "yoy": 25.0, "score": 95, "rating": "強力推薦", "kline": "🚀 權值龍頭多頭創高", "reasons": ["台股大盤權值第一代表", "涵蓋台積電聯發科等50大權值巨頭", "定期定額與外資長線首選"]},
+    {"symbol": "0056.TW", "name": "元大高股息 (0056)", "market": "TW", "sector": "高股息龍頭ETF", "base": 58.00, "pe": 14.2, "yield": 7.8, "yoy": 18.5, "score": 92, "rating": "強力推薦", "kline": "📈 穩健向上除息填息", "reasons": ["台灣第一檔高股息 ETF 歷史悠久", "年化殖利率 7.8% 穩定配息", "預測未來一年現金殖利率最高30檔"]},
+    {"symbol": "00878.TW", "name": "國泰永續高股息 (00878)", "market": "TW", "sector": "季配型高息ETF", "base": 35.15, "pe": 13.8, "yield": 8.5, "yoy": 20.1, "score": 94, "rating": "強力推薦", "kline": "🚀 百萬股民存股首選", "reasons": ["全台受益人數破百萬人氣王", "ESG 與高殖利率兼具防禦抗震", "季季穩定配息填息能力優異"]},
+    {"symbol": "00919.TW", "name": "群益台灣精選高息 (00919)", "market": "TW", "sector": "高息型人氣ETF", "base": 32.45, "pe": 12.5, "yield": 10.2, "yoy": 26.4, "score": 96, "rating": "強力推薦", "kline": "🔥 雙位數年化配息噴發", "reasons": ["年化配息率突破 10% 傲視同業", "精準鎖定已宣告高股息與高獲利股", "規模突破 2500 億人氣狂飆"]},
+    {"symbol": "00929.TW", "name": "復華台灣科技優息 (00929)", "market": "TW", "sector": "科技月配息ETF", "base": 29.35, "pe": 14.5, "yield": 8.9, "yoy": 22.8, "score": 91, "rating": "看好偏多", "kline": "📈 科技高息月月領", "reasons": ["全台首檔月配息 ETF", "100% 聚焦台灣高獲利科技優質股", "每月現金流投資人最愛"]},
+    {"symbol": "00940.TW", "name": "元大台灣價值高息 (00940)", "market": "TW", "sector": "價值月配息ETF", "base": 13.34, "pe": 13.0, "yield": 7.2, "yoy": 15.2, "score": 90, "rating": "看好偏多", "kline": "🏰 巴菲特價值選股", "reasons": ["結合巴菲特價值投資與高股息", "百億募資指標月月配息", "低本益比與高自由現金流防禦"]},
+    {"symbol": "006208.TW", "name": "富邦台50 (006208)", "market": "TW", "sector": "低內扣市值ETF", "base": 247.90, "pe": 18.2, "yield": 3.1, "yoy": 25.0, "score": 95, "rating": "強力推薦", "kline": "🚀 追蹤大盤超低內扣", "reasons": ["全市場總費用率極低 (僅約 0.15%~0.25%)", "同享台股五十大權值成長紅利", "年輕存股族與指數化投資首選"]},
+    {"symbol": "00713.TW", "name": "元大台灣高息低波 (00713)", "market": "TW", "sector": "高息低波抗震ETF", "base": 65.50, "pe": 13.5, "yield": 7.9, "yoy": 19.5, "score": 93, "rating": "強力推薦", "kline": "🛡️ 空頭抗震多頭跟漲", "reasons": ["多因子兼顧高殖利率與極低波動度", "歷經多次空頭回檔展現超強防禦力", "長年累積報酬率超越大盤指標"]},
+    {"symbol": "00631L.TW", "name": "元大台灣50正2 (00631L)", "market": "TW", "sector": "2倍槓桿型ETF", "base": 36.51, "pe": 20.0, "yield": 0.0, "yoy": 45.0, "score": 92, "rating": "強力推薦", "kline": "⚡ 多頭大盤波段放大器", "reasons": ["追蹤台灣50單日正向兩倍報酬", "長期波段多頭行情具複利放大效應", "波段積極型投資人進攻首選"]},
+    {"symbol": "00679B.TWO", "name": "元大美債20年 (00679B)", "market": "TW", "sector": "長天期美債ETF", "base": 25.84, "pe": 15.0, "yield": 4.8, "yoy": 12.0, "score": 89, "rating": "看好偏多", "kline": "🏦 降息循環受惠資產", "reasons": ["直接持有美國財政部 20 年期以上國債", "聯準會降息循環具資本利得爆發潛力", "固定季配息避險資產首選"]}
 ]
 
 
@@ -100,32 +100,75 @@ def fetch_taifex_wtx():
     return None
 
 
-def fetch_yahoo_batch(symbols):
-    """從 Yahoo Finance 並行極速抓取真實即時股價"""
-    sym_str = ",".join(symbols)
-    url = f"https://query1.finance.yahoo.com/v7/finance/quote?symbols={sym_str}"
-    req = urllib.request.Request(
-        url,
-        headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-    )
+def fetch_all_live_quotes(symbols):
+    """從台灣證券交易所 (TWSE) 與櫃買中心 (TPEx) 官方 OpenAPI 直連獲取真實最新股價"""
     results = {}
+    ctx = ssl._create_unverified_context()
+
+    # 1. TWSE 官方上市行情 (1,380+ 檔)
     try:
-        with urllib.request.urlopen(req, timeout=4) as resp:
-            data = json.loads(resp.read().decode('utf-8'))
-            quotes = data.get("quoteResponse", {}).get("result", [])
-            for q in quotes:
-                s = q.get("symbol", "")
-                results[s] = {
-                    "price": q.get("regularMarketPrice", 0.0),
-                    "change": q.get("regularMarketChange", 0.0),
-                    "change_pct": q.get("regularMarketChangePercent", 0.0),
-                    "prev_close": q.get("regularMarketPreviousClose", 0.0),
-                    "volume": q.get("regularMarketVolume", 0),
-                    "name": q.get("shortName", s)
-                }
-    except Exception:
-        pass
+        url_twse = 'https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL'
+        req1 = urllib.request.Request(url_twse, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req1, timeout=4, context=ctx) as resp1:
+            data1 = json.loads(resp1.read().decode('utf-8'))
+            for r in data1:
+                c = r.get('Code', '').strip()
+                if c:
+                    try:
+                        close = float(r.get('ClosingPrice', 0) or 0)
+                        chg = float(r.get('Change', 0) or 0)
+                        vol = int(r.get('TradeVolume', 0) or 0) // 1000
+                        prev = close - chg if close > 0 else close
+                        pct = round((chg / prev * 100), 2) if prev > 0 else 0.0
+                        results[f"{c}.TW"] = {
+                            "price": close, "change": chg, "change_pct": pct, "prev_close": prev,
+                            "volume": vol, "name": r.get('Name', '').strip()
+                        }
+                    except Exception: pass
+    except Exception: pass
+
+    # 2. TPEx 官方上櫃行情 (1,010+ 檔)
+    try:
+        url_tpex = 'https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes'
+        req2 = urllib.request.Request(url_tpex, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req2, timeout=4, context=ctx) as resp2:
+            data2 = json.loads(resp2.read().decode('utf-8'))
+            for r in data2:
+                c = r.get('SecuritiesCompanyCode', '').strip()
+                if c:
+                    try:
+                        close = float(r.get('Close', 0) or 0)
+                        chg = float(str(r.get('Change', 0)).replace('+', '') or 0)
+                        vol = int(r.get('TradingShares', 0) or 0) // 1000
+                        prev = close - chg if close > 0 else close
+                        pct = round((chg / prev * 100), 2) if prev > 0 else 0.0
+                        results[f"{c}.TWO"] = {
+                            "price": close, "change": chg, "change_pct": pct, "prev_close": prev,
+                            "volume": vol, "name": r.get('CompanyName', '').strip()
+                        }
+                    except Exception: pass
+    except Exception: pass
+
+    # 3. Yahoo v8 chart for NVDA & ^TWII (免金鑰、高穩定)
+    foreign_queries = [('NVDA', 'NVDA'), ('^TWII', '^TWII')]
+    for query_sym, target_key in foreign_queries:
+        try:
+            url_y = f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(query_sym)}"
+            req_y = urllib.request.Request(url_y, headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req_y, timeout=3) as resp_y:
+                y_data = json.loads(resp_y.read().decode('utf-8'))
+                meta = y_data['chart']['result'][0]['meta']
+                p = meta.get('regularMarketPrice', 0.0)
+                prev = meta.get('chartPreviousClose', p)
+                chg = round(p - prev, 2)
+                pct = round(chg / prev * 100, 2) if prev > 0 else 0.0
+                results[target_key] = {"price": p, "change": chg, "change_pct": pct, "prev_close": prev, "volume": 0}
+        except Exception: pass
+
     return results
+
+def fetch_yahoo_batch(symbols):
+    return fetch_all_live_quotes(symbols)
 
 
 def load_all_market_raw():
